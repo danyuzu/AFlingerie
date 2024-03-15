@@ -1,0 +1,47 @@
+
+
+.checkout-container{
+ /* outline: 1px black solid; */
+
+    font-size: 3rem;
+    text-align: center;
+    padding: 13rem 15%  ;   
+   max-width: 1200px; 
+}
+.inner-container{
+    text-align: center;
+    max-width: 800px;
+    padding:0  5%;   
+}
+form form {
+background-color: gray;
+
+}
+form fieldset label{
+    font-size: 1.5rem;
+}
+
+.paypalbtns{
+    display: none;
+    text-align: center;
+    position: relative;
+    /* left: 7%; */
+}
+.dom{
+    display: none;
+}
+.vende{
+    display: none;
+}
+
+.opendom{
+    display: block;
+}
+
+.openvende{
+    display: block;
+}
+
+.displaypaypal{
+display: block;
+}
