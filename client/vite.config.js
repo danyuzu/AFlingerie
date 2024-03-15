@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api/orders': 'http://localhost:8888',
+      '/api/orders': 'https://vercel.com/danyuzus-projects/a-flingerie-server',
     }}
 
 })

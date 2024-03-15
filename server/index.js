@@ -16,8 +16,8 @@ app.use(express.json());
 //  const client_id =process.env.PAYPAL_CLIENT_ID;
  //console.log(client_id+ "hola")
 
-   const PAYPAL_CLIENT_SECRET=process.env.PAYPAL_CLIENT_SECRET;
-const PAYPAL_CLIENT_ID=process.env.PAYPAL_CLIENT_SECRET;
+//    const PAYPAL_CLIENT_SECRET=process.env.PAYPAL_CLIENT_SECRET;
+// const PAYPAL_CLIENT_ID=process.env.PAYPAL_CLIENT_SECRET;
 
  // import {PAYPAL_CLIENT_ID} from './dotenv'
 const {   PORT = 8888} = process.env;
