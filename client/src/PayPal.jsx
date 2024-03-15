@@ -20,7 +20,7 @@ window.paypal.Buttons({
   async createOrder() {
 
     try {
-      const response = await fetch("https://a-flingerie-server.vercel.app/api/orders", {
+      const response = await fetch("/api/orders", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -57,7 +57,7 @@ window.paypal.Buttons({
   },
     async onApprove(data, actions) {
         try {
-          const response = await fetch(`https://a-flingerie-server.vercel.app/api/orders/${data.orderID}/capture`, {
+          const response = await fetch(`/api/orders/${data.orderID}/capture`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
