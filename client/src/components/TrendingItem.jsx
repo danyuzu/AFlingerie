@@ -6,9 +6,10 @@ import { useEffect } from "react";
 
 
 function  TrendingItem(){
+    
     useEffect(()=>{
-        const filteredItems = items.filter((item) => item.id <=4);
-
+       const  filteredItems = items.filter((item) => item.id <=4);
+return( filteredItems)
     },[])
 
     return(
@@ -16,7 +17,7 @@ function  TrendingItem(){
         {filteredItems.map((item) => (
             <div key={item.id} className="row-item">
                   <Link onClick={() =>window.top(0,0 )}
-                  to={`/categories/product/${item.id}`}>
+                  to={`/categories/product/${filteredItems.id}`}>
                     <div className="item-header">
                         <img src= {item.img} alt='product'/>
                     </div>
