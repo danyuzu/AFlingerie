@@ -1,6 +1,6 @@
 import "./TrendingSlider.css";
 import { items } from "./AllData";
-import {Link }from 'react-router'
+import {Link }from 'react-router-dom'
 import { useEffect } from "react";
 
 
