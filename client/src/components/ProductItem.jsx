@@ -12,7 +12,7 @@ return(
         <div key={item.id} className="product normal">
             <Link
             onClick={() => window.top(0,0)}
-            to={`/categories/product/${item.id}`}>
+            to={`categories/product/${item.id}`}>
                 <div className="product-header">
                 <img src={item.img} alt="product1"/>
                 </div>
