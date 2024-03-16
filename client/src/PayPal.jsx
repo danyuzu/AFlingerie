@@ -32,7 +32,7 @@ window.paypal.Buttons({
             {
               id: "2",
               quantity:1,
-              value:newTotalPrice
+              value: newTotalPrice
             },
           ],
         }),

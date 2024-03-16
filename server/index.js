@@ -104,7 +104,7 @@ const createOrder = async (cart) => {
       {
         amount: {
           currency_code: "MXN",
-          value:100.00
+          value:cart[0].value
         },
       },
     ],
