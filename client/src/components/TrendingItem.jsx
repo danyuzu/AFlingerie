@@ -1,23 +1,22 @@
 import "./TrendingSlider.css";
 import { items } from "./AllData";
-import {Link }from 'react-router-dom'
+import {Link }from 'react-router'
 import { useEffect } from "react";
 
 
 
 function  TrendingItem(){
     
-    useEffect(()=>{
+
        const  filteredItems = items.filter((item) => item.id <=4);
-return( filteredItems)
-    },[])
+
 
     return(
         <>
         {filteredItems.map((item) => (
             <div key={item.id} className="row-item">
                   <Link onClick={() =>window.top(0,0 )}
-                  to={`/categories/product/${filteredItems.id}`}>
+                  to={`/categories/product/2`}>
                     <div className="item-header">
                         <img src= {item.img} alt='product'/>
                     </div>

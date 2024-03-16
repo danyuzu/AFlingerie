@@ -54,10 +54,10 @@ console.log(savedCart)
         <Route path="electronics" element={<Electronics />} />
         <Route path="lamps" element={<Lamps />} />
         <Route path="kitchen" element={<Kitchen />} />
-        <Route path="chairs" element={<Chairs />} />
+        <Route path="chairs" element={<Chairs/>} />
         <Route path="skin-care" element={<SkinCare />} />
       </Route>
-      <Route path="categories/product/:id" element={<ProductPage />} />
+      <Route path="categories/product/:id" element={<ProductPage/>} />
     </Routes>
   </CartContext.Provider>
   )
