@@ -11,6 +11,8 @@ import Banner2 from "../img/banner/banner2.jpg";
 import Sub from '../components/Subscribcion'
 import bannerlenceuno from '../img/bannerimg.jpeg'
 import bannerlencedos from '../img/banner2lence.webp'
+import { Link } from "react-router-dom";
+
 
 
 
