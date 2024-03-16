@@ -1,10 +1,15 @@
 import "./TrendingSlider.css";
 import { items } from "./AllData";
 import {Link }from 'react-router-dom'
+import { useEffect } from "react";
+
 
 
 function  TrendingItem(){
-    const filteredItems = items.filter((item) => item.id <=4);
+    useEffect(()=>{
+        const filteredItems = items.filter((item) => item.id <=4);
+
+    },[])
 
     return(
         <>
