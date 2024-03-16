@@ -4,7 +4,7 @@
     
     "routes": [
       {
-        "src": "/api/orders(.*)",
+        "src": "/api/(.*)",
         "status": 200,
         "methods": ["POST", "OPTIONS", "GET", "PATCH", "DELETE", "PUT"],
         "headers": {
